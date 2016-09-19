@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mind Palace</string>
+
+    <string-array name="list_type">
+        <item>Select Type</item>
+        <item>Person</item>
+        <item>Event</item>
+        <item>Visit</item>
+        <item>Object</item>
+        <item>Other</item>
+    </string-array>
+</resources>

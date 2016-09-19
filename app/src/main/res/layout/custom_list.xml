@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imgEntry"
+        android:layout_width="60dp"
+        android:layout_height="60dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp">
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apr 24"
+            android:textStyle="italic"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txtObject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Mr. Bill Gates"
+            android:singleLine="true"
+            android:textSize="16sp"
+            android:layout_toLeftOf="@+id/txtDate"
+            android:layout_toStartOf="@+id/txtDate" />
+        <TextView
+            android:id="@+id/txtDescription"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorem ispim cnuioa cwiec cnowe nciuaw ncauw ncadc 0eopw cawecl c"
+            android:layout_below="@+id/txtObject"
+            android:layout_marginTop="1dp"
+            android:singleLine="true"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/txtTags"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="business, start-up"
+            android:layout_below="@+id/txtDescription"
+            android:singleLine="true"
+            android:textSize="12sp"/>
+
+        <ImageView
+            android:id="@+id/imgReminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_alarm_black_18dp"
+            android:layout_below="@+id/txtTags"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"/>
+    </RelativeLayout>
+</LinearLayout>
